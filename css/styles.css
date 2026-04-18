@@ -1,0 +1,96 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+  font-size: 16px;
+  background-color: lightgray;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Container styles */
+.container {
+  min-height: 100vh;
+  /* height: fit-content; */
+  padding-top: 3rem;
+  max-width: 1300px;
+  margin-inline: auto;
+  background-color: white;
+  overflow: hidden;
+  /* border: 3px solid red; */
+}
+
+.image-container,
+.content-container {
+  /* display: inline; */
+  float: left;
+  width: 47%;
+  height: 100vh;
+  min-height: 100vh;
+}
+
+/* Image container styles */
+.image-container {
+  
+  /* image */
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+/* Content container styles */
+.content-container {
+  margin-left: 6%;
+  padding-right: 4rem;
+}
+
+
+.content-container h1,
+.content-container p {
+  margin-bottom: 1rem;
+} 
+
+h1 {
+  font-size: 4rem;
+  margin-top: 2rem;
+  font-weight: 800;
+  line-height: 1.6;
+  word-spacing: 2rem;
+}
+
+.explanation {
+  font-size: 1.5rem;
+  max-width: 80%;
+  line-height: 1.6;
+}
+
+ .btn {
+  font-size: 1.8rem;
+  font-weight: 200;
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+.part-1 {
+  margin-bottom: 50px;
+}
+
+.feature h4 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.feature p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
